@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#978BC34A"
     tools:context=".Login">
 
 
@@ -12,15 +13,15 @@
         android:layout_width="336dp"
         android:layout_height="60dp"
         android:layout_marginTop="108dp"
-        android:fontFamily="@font/poppins_bold"
+        android:fontFamily="@font/nightpumpkind_1gpgv"
 
-        android:text="Get your Vibes"
+        android:text="Join our events"
         android:textAlignment="center"
         android:textColor="@color/green_dark"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,14 +70,14 @@
 
     <TextView
         android:id="@+id/registrationRoot"
-        android:layout_width="252dp"
-        android:layout_height="45dp"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
         android:layout_marginTop="44dp"
         android:clickable="true"
         android:fontFamily="@font/poppins"
         android:text="Don't have an account? Register here"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/green_dark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,11 +92,11 @@
         android:layout_height="58dp"
         android:background="@drawable/btn_background"
         android:backgroundTint="@color/green_dark"
-        android:fontFamily="@font/poppins_bold"
+        android:fontFamily="@font/nightpumpkind_1gpgv"
         android:text="Login"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="27sp"
+        android:textSize="31sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
