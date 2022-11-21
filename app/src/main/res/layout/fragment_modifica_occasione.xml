@@ -10,6 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/green_light"
         tools:layout_editor_absoluteX="-51dp"
         tools:layout_editor_absoluteY="136dp">
 
@@ -17,14 +18,15 @@
             android:id="@+id/textViewModifica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/poppins_bold"
+            android:fontFamily="@font/nightpumpkind_1gpgv"
             android:paddingTop="12dp"
+
             android:text="Modifica la tua occasione!"
-            android:textColor="@color/green"
-            android:textSize="24sp"
+            android:textColor="@color/green_dark"
+            android:textSize="30sp"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,6 +41,8 @@
             android:hint="Titolo"
             app:counterMaxLength="27"
             app:startIconDrawable="@drawable/ic_title"
+            android:textColor="@color/black"
+            android:textColorHint="#B6B6B6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewModifica">
@@ -47,6 +51,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLength="27"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/grey"
                 android:fontFamily="@font/poppins" />
 
 
@@ -64,6 +70,8 @@
             android:layout_marginEnd="32dp"
             app:startIconDrawable="@drawable/ic_baseline_description_24"
             android:hint="Descrizione"
+            android:textColor="@color/black"
+            android:textColorHint="#B6B6B6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titoloModificaEvento">
@@ -72,6 +80,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLength="500"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/grey"
                 android:fontFamily="@font/poppins" />
 
 
@@ -86,6 +96,8 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="32dp"
             android:hint="Città"
+            android:textColor="@color/black"
+            android:textColorHint="#B6B6B6"
             app:startIconDrawable="@drawable/ic_map"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -94,6 +106,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/grey"
                 android:fontFamily="@font/poppins" />
 
 
@@ -109,6 +123,8 @@
             android:layout_marginEnd="32dp"
             app:startIconDrawable="@drawable/ic_baseline_streetview_24"
             android:hint="Indirizzo"
+            android:textColor="@color/black"
+            android:textColorHint="#B6B6B6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cittaModificaEvento">
@@ -116,6 +132,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/grey"
                 android:fontFamily="@font/poppins" />
 
 
@@ -131,6 +149,8 @@
             android:layout_marginEnd="32dp"
             android:hint="Numero persone"
             android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="#B6B6B6"
             app:startIconDrawable="@drawable/ic_baseline_people_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -139,6 +159,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/grey"
                 android:fontFamily="@font/poppins" />
 
 
@@ -153,6 +175,8 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="32dp"
             android:hint="Prezzo"
+            android:textColor="@color/black"
+            android:textColorHint="#B6B6B6"
             android:inputType="numberDecimal"
             app:startIconDrawable="@drawable/ic_baseline_euro_symbol_24"
             app:layout_constraintEnd_toEndOf="parent"
@@ -162,6 +186,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@color/grey"
                 android:fontFamily="@font/poppins" />
 
 
@@ -280,9 +306,10 @@
             android:layout_height="60dp"
             android:layout_marginTop="15dp"
             android:backgroundTint="@color/green_dark"
-            android:fontFamily="@font/poppins_bold"
+            android:fontFamily="@font/nightpumpkind_1gpgv"
             android:text="Modifica"
             android:textColor="@color/white"
+            android:textSize="18dp"
             app:cornerRadius="20dp"
             app:iconTint="@color/green_dark"
             app:layout_constraintEnd_toEndOf="parent"
