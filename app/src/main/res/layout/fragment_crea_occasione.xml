@@ -308,10 +308,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
             android:text="Choose image"
-            android:textColor="@color/green_dark"
+            android:textColor="@color/black"
             android:textStyle="bold"
             app:icon="@drawable/ic_add_icon"
-            app:iconTint="@color/green_dark"
+            app:iconTint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/immagine" />
