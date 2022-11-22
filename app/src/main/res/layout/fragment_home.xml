@@ -22,7 +22,9 @@
             android:verticalScrollbarPosition="defaultPosition"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></androidx.recyclerview.widget.RecyclerView>
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvEvents"
@@ -30,7 +32,7 @@
             android:layout_height="436dp"
             android:layout_marginTop="20sp"
             android:layout_marginBottom="20sp"
-            android:background="#9CF4F3F1"
+            android:background="@color/green_light"
             android:foregroundGravity="center_horizontal"
             android:nestedScrollingEnabled="false"
             android:overScrollMode="ifContentScrolls"
