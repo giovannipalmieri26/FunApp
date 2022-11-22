@@ -25,7 +25,9 @@
             app:layout_constraintHorizontal_bias="0.523"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/no_photo"></ImageView>
+            app:srcCompat="@drawable/no_photo">
+
+        </ImageView>
 
         <TextView
             android:id="@+id/tvEventDesc"
@@ -57,7 +59,9 @@
             android:textColor="#151515"
             android:textSize="15dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvEventDesc"></TextView>
+            app:layout_constraintTop_toBottomOf="@+id/tvEventDesc">
+
+        </TextView>
 
         <TextView
             android:id="@+id/prezzoEvento"
@@ -70,7 +74,9 @@
             android:textColor="#151515"
             android:textSize="15dp"
             app:layout_constraintStart_toEndOf="@+id/categoriaEvento"
-            app:layout_constraintTop_toBottomOf="@+id/dataEvento"></TextView>
+            app:layout_constraintTop_toBottomOf="@+id/dataEvento">
+
+        </TextView>
 
         <TextView
             android:id="@+id/categoriaEvento"
@@ -86,13 +92,15 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dataEvento"
-            app:layout_constraintVertical_bias="0.0"></TextView>
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/buttonIminterest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="@color/green_dark"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_icons8_amore_cerchiato"
             app:layout_constraintBottom_toTopOf="@+id/tvEventDesc"
@@ -111,7 +119,7 @@
             android:src="@drawable/ic_baseline_clear_24"
             app:layout_constraintBottom_toTopOf="@+id/tvEventDesc"
             app:layout_constraintStart_toStartOf="parent"
-            app:tint="@color/green" />
+            app:tint="@color/green_dark" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
