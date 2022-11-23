@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green_light"
+
     tools:context=".HomeActivity">
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="63dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="108dp"
         android:fontFamily="@font/poppins_bold"
         android:lineSpacingExtra="8sp"
-        android:text=""
+        android:text="FUN APP"
         android:textAlignment="textStart"
         android:textAllCaps="false"
-        android:textColor="#BD4705"
+        android:textColor="#3F51B5"
         android:textSize="16sp"
         android:textStyle="bold"
         android:typeface="normal"
@@ -42,13 +42,13 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:defaultNavHost="true"
         android:background="@color/green_light"
+        app:defaultNavHost="true"
         app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/my_navgraph"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="-25dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
