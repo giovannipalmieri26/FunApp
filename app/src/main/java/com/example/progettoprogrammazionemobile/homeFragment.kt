@@ -116,13 +116,13 @@ class homeFragment : Fragment(R.layout.fragment_home) {
 
     private fun getCategories(): List<category> {
         var categoryimgs = listOf<category>(
-            category(R.drawable.ic_icons8_montagna, "Adventure"),
-            category(R.drawable.ic_icons8_illustrator, "Art"),
-            category(R.drawable.ic_icons8_musica__1_, "Concert"),
-            category(R.drawable.ic_icons8_sports, "Sport"),
-            category(R.drawable.ic_icons8_photo, "Photo"),
-            category(R.drawable.ic_icons8_carte_da_gioco, "Role Games"),
-            category(R.drawable.ic_icons8_festa_di_ballo, "Party")
+            category(R.drawable.ic_baseline_airplanemode_active_24, "Adventure"),
+            category(R.drawable.ic_baseline_create_24, "Art"),
+            category(R.drawable.ic_baseline_music_note_24, "Concert"),
+            category(R.drawable.ic_baseline_sports_soccer_24, "Sport"),
+            category(R.drawable.ic_baseline_photo_camera_24, "Photo"),
+            category(R.drawable.ic_baseline_groups_2_24, "Role Games"),
+            category(R.drawable.ic_baseline_cake_24, "Party")
         )
         return categoryimgs
     }
