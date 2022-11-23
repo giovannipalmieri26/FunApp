@@ -56,8 +56,7 @@ class Registration : AppCompatActivity() {
                     finish()
                 }
                 else{
-                    Toast.makeText(this, "sorry", Toast.LENGTH_LONG).show()
-
+                    Toast.makeText(this, "Sorry, something went wrong!", Toast.LENGTH_LONG).show()
                 }
             }
         }
