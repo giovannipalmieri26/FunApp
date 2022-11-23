@@ -22,7 +22,9 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="26dp"
-                    android:clickable="true"></ImageView>
+                    android:clickable="true">
+
+                </ImageView>
 
                 <TextView
                     android:id="@+id/categoryTitle"
@@ -37,7 +39,9 @@
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="11sp"
-                    android:textStyle="bold"></TextView>
+                    android:textStyle="bold">
+
+                </TextView>
 
         </RelativeLayout>
 
