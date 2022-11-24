@@ -29,7 +29,7 @@ class EventoViewModel: ViewModel() {
             reference = FirebaseDatabase.getInstance().getReference("Evento")
             event_to_save.id_evento = reference.push().getKey();
 
-            val url_storage = "gs://programmazionemobile-a1b11.appspot.com/Users/ + ${event_to_save.id_evento}"
+            val url_storage = "gs://fun-app-e8114.appspot.com/Users/ + ${event_to_save.id_evento}"
             event_to_save.foto = url_storage
 
             uploadEventPicture(event_to_save.id_evento)

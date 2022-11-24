@@ -89,8 +89,8 @@ class EventsDataFirebase(private val database: EventsRoomDb) {
             //reference = FirebaseDatabase.getInstance().getReference("Evento")
             model.id_evento = databaseRemoteEvents.push().getKey().toString();
 
-//            val url_storage = "gs://programmazionemobile-a1b11.appspot.com/Users/${model.id_evento}"
-//            model.foto = url_storage
+            val url_storage = "gs://fun-app-e8114.appspot.com/Users/${model.id_evento}"
+            model.foto = url_storage
 
             uploadEventPictureRemote(model.id_evento, imageUri)
 

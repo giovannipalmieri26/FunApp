@@ -23,8 +23,8 @@ class EventsRepository(private val database: EventsRoomDb) {
         var prova = ArrayList<EventoDb>()
         if(list) {prova = eventsData.getList()}
         for (evento in prova){
-//            val url_storage = "gs://programmazionemobile-a1b11.appspot.com/Users/${evento.id_evento}"
-//            evento.foto = url_storage
+            val url_storage = "gs://fun-app-e8114.appspot.com/Users/${evento.id_evento}"
+            evento.foto = url_storage
             Log.d("giacomo", "$evento")
             database.eventoDao().insert(evento)
         }
@@ -36,8 +36,8 @@ class EventsRepository(private val database: EventsRoomDb) {
     }
 
     fun insert(model: EventoDb, imageUri: Uri) {
-        /*val url_storage = "gs://programmazionemobile-a1b11.appspot.com/Users/${model.id_evento}"
-        model.foto = url_storage*/
+        val url_storage = "gs://fun-app-e8114.appspot.com/Users/${model.id_evento}"
+        model.foto = url_storage
         database.eventoDao().insert(model)
         eventsData.inserEventRemote(model, imageUri)
     }
